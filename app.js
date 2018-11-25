@@ -47,6 +47,7 @@ app.use('/', indexRouter);
 app.use('/api/registry', registryRouter);
 app.use('/api/list', listPetsRouter);
 
+pruebasonar = 0
 
 // error handling middleware should be loaded after the loading the routes
 if (app.get('env') === 'development') {
